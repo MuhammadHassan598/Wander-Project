@@ -1,0 +1,135 @@
+body{
+    /* background-color: #a4dc96; */
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+.container{
+flex: 1;
+}
+.navbar {
+    height: 5rem;
+    background-color: white;
+}
+
+.nav-link {
+    color: rgb(22, 22, 22) !important;
+}
+
+.fa-compass {
+    color: rgb(255, 66, 77);
+    font-size: 2rem;
+}
+
+/* footer */
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.f-info-links a:hover {
+    text-decoration: underline;
+
+}
+
+.f-info-links ,.f-info-social , .f-info-brand{
+  width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.f-info-social i{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+
+.f-info{
+    height: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+   background-color: #ebebeb;
+align-items: center;
+justify-content: space-evenly;
+text-align: center;
+}
+
+
+/* cards */
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0 !important;
+}
+.card-text p{
+    font-weight: 400 !important;
+}
+.listing-link{
+    text-decoration: none;
+}
+/* card effect */
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+/* new page */
+
+.add-btn{
+    border: none !important;
+   background-color: rgb(255, 66, 77) !important;
+}
+
+/* edit page */
+.edit-btn{
+    border: none !important;
+    background-color: rgb(255, 66, 77) !important;
+}
+/* 
+show page */
+.show-img{
+height: 45vh;
+
+}
+.btns{
+display: flex;
+margin-bottom: 1rem !important;
+}
+.show-card{
+    padding-left:0 ;
+    padding-right: 0;
+}
+/* maps */
+#map {
+    /* height: 45vh; 
+    font-family:"Plus Jakarta Sans, sans-serif"; 
+    font-size: 16px; 
+    font-weight: 400;
+    color: #333; 
+   width:95vh; */
+   /* border-radius:1rem; */
+
+
+
+    height: 45vh;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    width: 100%;
+    border-radius: 1.5rem;
+
+
+}
